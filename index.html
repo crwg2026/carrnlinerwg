@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" href="data:," />
+<title>Carrnline Realty & Wealth Group — Atlanta Real Estate, Life Insurance & Wealth Building</title>
+<meta name="description" content="Carrnline Realty & Wealth Group in Atlanta, GA. Real estate, financial literacy, wealth building, life insurance — IUL, term & whole life — retirement planning and annuities. Call 678-458-7469." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfaf7; --bg2:#f1ede4; --card:#ffffff; --ink:#121a16; --muted:#5a665f; --line:#e3ddd0;
+  --green:#0f3d2e; --green2:#14513d; --gold:#b9975b; --gold2:#d6bc86; --cream:#fffdf8;
+  --shadow:0 18px 45px rgba(15,61,46,.12);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0c1210; --bg2:#111a16; --card:#16201b; --ink:#f2efe8; --muted:#aeb8b1; --line:#26332c; --green:#0f3d2e; --cream:#16201b; --shadow:0 18px 45px rgba(0,0,0,.35); }
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Manrope,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:inherit;text-decoration:none} img{max-width:100%;display:block}
+.topbar{background:var(--green);color:#fff;font-size:.86rem}
+.topbar-inner{max-width:1180px;margin:0 auto;padding:.55rem 20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.topbar a{font-weight:700}
+header.site{position:sticky;top:0;z-index:50;background:color-mix(in srgb, var(--bg) 92%, transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{max-width:1180px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px}
+.mark{width:46px;height:46px;background:var(--green);color:#fff;display:grid;place-items:center;font-family:Playfair Display,serif;font-weight:700;letter-spacing:.04em;border:1px solid var(--gold)}
+.brand b{font-family:Playfair Display,serif;font-size:1.15rem;line-height:1.05;display:block}
+.brand span{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:800}
+.links{display:flex;gap:26px;font-weight:600;font-size:.95rem}
+.links a:hover{color:var(--green2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.85rem 1.35rem;border-radius:999px;font-weight:800;font-size:.95rem;border:1px solid transparent;cursor:pointer}
+.btn-gold{background:var(--gold);color:#111}
+.btn-green{background:var(--green);color:#fff}
+.btn-outline{border-color:var(--line);background:transparent}
+.btn-white{background:#fff;color:#0f3d2e}
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:999px;padding:.6rem 1rem;font-weight:800}
+.hero{position:relative;overflow:hidden;background:#0b1f18;color:#fff}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.58}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg, rgba(7,28,20,.92) 0%, rgba(7,28,20,.72) 52%, rgba(7,28,20,.22) 100%)}
+.hero-inner{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:72px 20px 54px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:end}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;font-weight:800;color:var(--gold2)}
+h1,h2,h3{font-family:Playfair Display,serif;line-height:1.05;margin:.4rem 0 1rem}
+h1{font-size:clamp(2.6rem,6vw,4.9rem);font-weight:600;max-width:700px}
+h1 em{color:var(--gold2);font-style:italic}
+.hero p.lead{font-size:1.14rem;color:#e8e4d8;max-width:620px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.hero-card{background:rgba(255,255,255,.96);color:#121a16;border-radius:18px;padding:22px;box-shadow:var(--shadow)}
+.hero-card h3{margin-top:0;font-size:1.35rem}
+.hero-card ul{padding-left:1.1rem;margin:.6rem 0}
+.checklist{list-style:none;padding:0!important}
+.checklist li{padding:.45rem 0;border-bottom:1px dashed #e5e0d2;display:flex;gap:.6rem}
+.checklist li::before{content:"✓";color:var(--green);font-weight:900}
+.pillars{max-width:1180px;margin:-28px auto 0;position:relative;z-index:3;padding:0 20px}
+.pillars-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.pillar{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 16px;box-shadow:var(--shadow)}
+.pillar strong{display:block;font-family:Playfair Display,serif;font-size:1.05rem;line-height:1.2}
+.pillar p{font-size:.88rem;color:var(--muted);margin:.45rem 0 0}
+.section{max-width:1180px;margin:0 auto;padding:72px 20px}
+.section-head{max-width:760px}
+.section-head p{color:var(--muted);font-size:1.05rem}
+h2{font-size:clamp(2rem,4vw,3rem)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px}
+.card h3{font-size:1.45rem}
+.card p{color:var(--muted)}
+.icon{width:44px;height:44px;border-radius:12px;background:var(--bg2);display:grid;place-items:center;font-size:1.25rem;margin-bottom:14px}
+.photo{border-radius:22px;overflow:hidden;box-shadow:var(--shadow)}
+.photo img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+.tag{display:inline-block;background:var(--bg2);border:1px solid var(--line);padding:.3rem .7rem;border-radius:999px;font-size:.82rem;font-weight:700;margin:.15rem}
+.compare{width:100%;border-collapse:collapse;background:var(--card);border-radius:18px;overflow:hidden}
+.compare th,.compare td{padding:16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.compare th{background:var(--green);color:#fff;font-family:Playfair Display,serif;font-size:1.05rem}
+.calc{background:var(--green);color:#fff;border-radius:24px;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.calc label{font-size:.88rem;font-weight:700;display:block;margin-bottom:.35rem}
+.calc input,.calc select{width:100%;padding:.85rem 1rem;border-radius:12px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1);color:#fff;margin-bottom:14px}
+.calc input::placeholder{color:#cfd8d2}
+.calc select option{color:#111}
+.result{background:#fff;color:#111;border-radius:18px;padding:22px}
+.result strong{font-family:Playfair Display,serif;font-size:2rem;color:var(--green);display:block;line-height:1}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.step{border-top:3px solid var(--gold);padding-top:16px}
+.step b{font-family:Playfair Display,serif;font-size:2rem;color:var(--gold)}
+details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:12px}
+details summary{font-weight:800;cursor:pointer;font-family:Playfair Display,serif;font-size:1.1rem}
+form.consult{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px}
+form.consult label{font-weight:700;font-size:.9rem}
+form.consult input,form.consult select,form.consult textarea{width:100%;padding:.9rem 1rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);margin:.35rem 0 14px;font:inherit}
+.cta-band{background:var(--bg2);border-block:1px solid var(--line)}
+footer{background:#0b1a14;color:#d8ddd8;padding:48px 20px 90px}
+footer .inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:28px}
+footer a{color:#fff;font-weight:700}
+.small{font-size:.86rem;color:var(--muted)}
+.disclaimer{font-size:.82rem;color:#8a968e;max-width:1180px;margin:28px auto 0;border-top:1px solid #22332b;padding-top:18px}
+.sticky-call{position:fixed;left:14px;right:14px;bottom:14px;z-index:60;display:none;gap:10px}
+.sticky-call a{flex:1;text-align:center;padding:1rem;border-radius:999px;font-weight:800;box-shadow:var(--shadow)}
+@media(max-width:920px){
+  .links{display:none;position:absolute;top:100%;left:16px;right:16px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;flex-direction:column}
+  .links.open{display:flex}
+  .menu-btn{display:block}
+  .nav>.btn{display:none}
+  .nav{padding:12px 16px;gap:10px}
+  .brand b{font-size:1rem}
+  .brand span{font-size:.62rem}
+  .mark{width:40px;height:40px;flex-shrink:0}
+  .topbar-inner{justify-content:center;text-align:center}
+  .hero-inner,.grid2,.calc,footer .inner{grid-template-columns:1fr}
+  .pillars-grid{grid-template-columns:1fr 1fr}
+  .grid3,.steps{grid-template-columns:1fr}
+  .sticky-call{display:flex}
+  .compare thead{display:none}
+  .compare tr{display:block;border-bottom:2px solid var(--line);padding:10px 0}
+  .compare td{display:block;border:none;padding:8px 16px}
+  .compare td::before{content:attr(data-label);display:block;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:800}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="topbar-inner"><span>Atlanta &amp; Surrounding Areas &nbsp;•&nbsp; Real Estate + Wealth + Protection — Under One Roof</span><span><a href="tel:+16784587469">678-458-7469</a> &nbsp;•&nbsp; <a href="mailto:Carrnlinerealty@gmail.com">Carrnlinerealty@gmail.com</a></span></div></div>
+
+<header class="site">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#top"><span class="mark">CR</span><span><b>Carrnline</b><span>Realty &amp; Wealth Group</span></span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false">Menu</button>
+    <div class="links" id="navLinks">
+      <a href="#services">Services</a><a href="#real-estate">Real Estate</a><a href="#insurance">Life Insurance</a><a href="#retirement">Retirement</a><a href="#calculator">Coverage Estimator</a><a href="#faq">FAQ</a>
+    </div>
+    <a class="btn btn-green" href="#consult" style="white-space:nowrap">Book Free Consultation</a>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero-bg" src="assets/atlanta-hero.jpg" alt="Atlanta skyline at golden hour" />
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">Atlanta, Georgia — Carrnline Realty &amp; Wealth Group</div>
+        <h1>Own the home. <em>Build the wealth.</em> Protect the legacy.</h1>
+        <p class="lead">Most families are told to figure out real estate, money, and insurance separately. We bring it together — helping Atlanta families buy and sell with confidence, understand their money, protect income with life insurance, and plan a retirement they can actually enjoy.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#consult">Book a Free Consultation →</a>
+          <a class="btn btn-white" href="tel:+16784587469">Call 678-458-7469</a>
+        </div>
+        <p style="color:#cfd6cc;font-size:.92rem;margin-top:16px">No pressure. No jargon. A clear conversation about where you are — and the next step that makes sense for your family.</p>
+      </div>
+      <aside class="hero-card" aria-label="Start here">
+        <div class="eyebrow" style="color:var(--gold)">Start Here</div>
+        <h3>What do you want to do first?</h3>
+        <ul class="checklist">
+          <li>Buy your first home — or your next one</li>
+          <li>Sell for top value in today’s market</li>
+          <li>Protect your family with life insurance</li>
+          <li>Build wealth beyond a paycheck</li>
+          <li>Plan retirement income that lasts</li>
+        </ul>
+        <a class="btn btn-green" href="#consult" style="width:100%;margin-top:14px">Tell Us Your Goal</a>
+        <p class="small" style="text-align:center;margin:.7rem 0 0">Serving Atlanta &amp; surrounding areas</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- PILLARS -->
+  <div class="pillars"><div class="pillars-grid">
+    <div class="pillar"><strong>🏠 Real Estate</strong><p>Buying, selling &amp; investing — guided street by street across metro Atlanta.</p></div>
+    <div class="pillar"><strong>📚 Financial Literacy</strong><p>Budgeting, credit, and money systems explained in plain language.</p></div>
+    <div class="pillar"><strong>🌱 Wealth Building</strong><p>Turn home equity and smart planning into long-term, generational wealth.</p></div>
+    <div class="pillar"><strong>🛡️ Life Insurance</strong><p>IUL, term &amp; whole life — matched to your family, budget, and goals.</p></div>
+    <div class="pillar"><strong>🌅 Retirement &amp; Annuities</strong><p>Retirement planning and guaranteed-income options for the years ahead.</p></div>
+  </div></div>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <div class="grid2">
+      <div class="photo"><img src="assets/advisor-meeting.jpg" alt="Couple meeting with a financial advisor to review their plan" /></div>
+      <div>
+        <div class="eyebrow" style="color:var(--gold)">Why Carrnline</div>
+        <h2>One conversation can change how your family thinks about money — and home.</h2>
+        <p style="color:var(--muted)">A home is often a family’s largest asset. Life insurance is often their largest protection. Retirement is what they’re working toward the whole time. Carrnline Realty &amp; Wealth Group was built on a simple belief: you shouldn’t need three different offices — and three different sales pitches — to make those pieces work together.</p>
+        <p style="color:var(--muted)">We start with education first. When you understand your options, you make calmer, stronger decisions — whether that’s an offer on a house in Decatur, an IUL policy to protect your income, or an annuity to help create steady retirement income.</p>
+        <div><span class="tag">Education-first approach</span><span class="tag">Atlanta local</span><span class="tag">Family-focused</span><span class="tag">No-pressure consultations</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services" style="padding-top:10px">
+    <div class="section-head"><div class="eyebrow" style="color:var(--gold)">Our Services</div><h2>Everything your family needs to build — in one place</h2><p>Choose the path you need today. We’ll show you how it connects to the bigger picture.</p></div>
+    <div class="grid3" style="margin-top:28px">
+      <article class="card" id="real-estate"><div class="icon">🏠</div><h3>Real Estate</h3><p><strong>Buyers:</strong> Pre-approval readiness, tours, sharp negotiation, and clear guidance from first showing to closing day — especially for first-time buyers.</p><p><strong>Sellers:</strong> Pricing strategy, prep guidance, and marketing that positions your home to stand out.</p><p><strong>Investors:</strong> Talk through numbers, neighborhoods, and long-term hold vs. sell decisions.</p><a href="#consult" style="font-weight:800;color:var(--green)">Start a real estate conversation →</a></article>
+      <article class="card"><div class="icon">📚</div><h3>Financial Literacy &amp; Wealth Building</h3><p>Money confidence isn’t about having a finance degree — it’s about having a system. We cover budgeting that actually works, understanding credit, emergency funds, debt payoff order, and how homeownership fits into wealth building.</p><p>Ideal for families who earn well but want their money to work harder and last longer.</p><a href="#consult" style="font-weight:800;color:var(--green)">Build your money system →</a></article>
+      <article class="card"><div class="icon">🌅</div><h3>Retirement Planning &amp; Annuities</h3><p>Retirement isn’t an age — it’s an income plan. We help you think through when you want to retire, what income you’ll need, and how annuities can fit alongside other savings to help create predictable income and reduce worry about outliving your money.</p><a href="#retirement" style="font-weight:800;color:var(--green)">Explore retirement options →</a></article>
+    </div>
+  </section>
+
+  <!-- REAL ESTATE SPOTLIGHT -->
+  <section class="section" style="padding-top:0">
+    <div class="grid2">
+      <div>
+        <div class="eyebrow" style="color:var(--gold)">Atlanta Real Estate</div>
+        <h2>Buy and sell with someone who knows Atlanta — and your financial picture.</h2>
+        <p style="color:var(--muted)">From Buckhead and Midtown to Decatur, Sandy Springs, Marietta, College Park, Stone Mountain, Lithonia, McDonough, Stockbridge, and beyond — we help you weigh the home <em>and</em> the money: monthly payment comfort, equity potential, and how this move affects your long-term plan.</p>
+        <ul class="checklist" style="max-width:520px">
+          <li>First-time buyer guidance, step by step</li>
+          <li>Seller pricing &amp; preparation strategy</li>
+          <li>Relocation support for families moving to Atlanta</li>
+          <li>Investment-minded view on every purchase</li>
+        </ul>
+        <div class="hero-actions"><a class="btn btn-green" href="#consult">Talk Real Estate</a><a class="btn btn-outline" href="tel:+16784587469">Call 678-458-7469</a></div>
+      </div>
+      <div class="photo"><img src="assets/luxury-home.jpg" alt="Beautiful Atlanta home exterior with manicured landscaping" /></div>
+    </div>
+    <div class="grid2" style="margin-top:28px">
+      <div class="photo"><img src="assets/family-keys.jpg" alt="Happy family receiving keys in front of their new home" /></div>
+      <div class="photo"><img src="assets/atlanta-skyline2.jpg" alt="Downtown Atlanta skyline" /></div>
+    </div>
+  </section>
+
+  <!-- INSURANCE -->
+  <section class="section" id="insurance" style="background:var(--bg2);border-block:1px solid var(--line);max-width:none">
+    <div style="max-width:1180px;margin:0 auto;padding:0 20px">
+      <div class="section-head"><div class="eyebrow" style="color:var(--gold)">Life Insurance Brokerage</div><h2>Protection that fits your life — not a one-size-fits-all policy</h2><p>As a brokerage, we help you compare types of coverage and understand the trade-offs before you decide. Here’s the plain-language breakdown most families wish someone had given them sooner.</p></div>
+
+      <div class="grid3" style="margin-top:26px">
+        <article class="card"><div class="icon">⚡</div><h3>Term Life</h3><p><strong>Best for:</strong> Maximum coverage for a set period — often 10, 20, or 30 years — at the lowest initial cost.</p><p>Covers the years your family needs it most: mortgage, raising kids, income replacement. Pure protection, no cash value.</p><p><strong>Think of it as:</strong> Renting protection for a season of life.</p></article>
+        <article class="card" style="border-color:var(--gold);border-width:2px"><div class="icon">📈</div><h3>Indexed Universal Life (IUL)</h3><p><strong>Best for:</strong> Lifelong coverage plus cash-value growth potential linked to a market index — without direct market losses when the index falls (subject to caps, participation rates, and policy charges).</p><p>Flexible premiums, potential tax-advantaged access to cash value, and a death benefit for your family.</p><p><strong>Think of it as:</strong> Protection + a long-term wealth-building tool in one policy.</p></article>
+        <article class="card"><div class="icon">🌳</div><h3>Whole Life</h3><p><strong>Best for:</strong> Permanent coverage with guaranteed cash-value growth and level premiums for life.</p><p>Often used for final expenses, legacy giving, and certainty — the policy is designed to stay in force for your whole life as long as premiums are paid.</p><p><strong>Think of it as:</strong> Owning permanent protection.</p></article>
+      </div>
+
+      <div style="overflow-x:auto;margin-top:22px;border-radius:18px">
+      <table class="compare" aria-label="Compare term, IUL and whole life insurance">
+        <thead><tr><th></th><th>Term Life</th><th>Indexed Universal Life</th><th>Whole Life</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Feature"><strong>How long it lasts</strong></td><td data-label="Term">Set years (10–30)</td><td data-label="IUL">Designed for life, flexible</td><td data-label="Whole">Designed for life</td></tr>
+          <tr><td data-label="Feature"><strong>Cash value</strong></td><td data-label="Term">No</td><td data-label="IUL">Yes — index-linked growth potential</td><td data-label="Whole">Yes — guaranteed growth</td></tr>
+          <tr><td data-label="Feature"><strong>Premium style</strong></td><td data-label="Term">Lowest cost, level for term</td><td data-label="IUL">Flexible (within limits)</td><td data-label="Whole">Level, fixed</td></tr>
+          <tr><td data-label="Feature"><strong>Common goal</strong></td><td data-label="Term">Income &amp; mortgage protection</td><td data-label="IUL">Protection + supplemental retirement / wealth</td><td data-label="Whole">Legacy, final expenses, certainty</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="small" style="margin-top:14px">This is general education, not a recommendation. Every policy has terms, charges, and conditions — we’ll walk through illustrations and details together so you can decide with eyes open.</p>
+    </div>
+  </section>
+
+  <!-- CALCULATOR -->
+  <section class="section" id="calculator">
+    <div class="section-head"><div class="eyebrow" style="color:var(--gold)">Quick Estimator</div><h2>How much life insurance might your family need?</h2><p>A starting-point estimate using the classic needs method: income to replace + debts + future goals − what you already have. For education only — your consultation refines it.</p></div>
+    <div class="calc" style="margin-top:24px">
+      <div>
+        <label for="income">Annual household income ($)</label><input id="income" type="number" value="75000" min="0" step="1000">
+        <label for="years">Years of income to replace</label>
+        <select id="years"><option value="5">5 years</option><option value="10" selected>10 years</option><option value="15">15 years</option><option value="20">20 years</option></select>
+        <label for="debt">Debts + mortgage to clear ($)</label><input id="debt" type="number" value="250000" min="0" step="5000">
+        <label for="future">Future goals — college, legacy, final expenses ($)</label><input id="future" type="number" value="50000" min="0" step="5000">
+        <label for="existing">Existing savings + insurance ($)</label><input id="existing" type="number" value="25000" min="0" step="5000">
+        <button class="btn btn-gold" id="calcBtn" style="width:100%">Estimate My Need</button>
+      </div>
+      <div class="result">
+        <span class="small" style="letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--gold)">Estimated coverage need</span>
+        <strong id="calcResult">$1,025,000</strong>
+        <p id="calcBreakdown" style="color:#445">Income replacement $750,000 + debts $250,000 + goals $50,000 − existing $25,000.</p>
+        <p class="small">Many Atlanta families are surprised by this number — term life can often cover a large need affordably, while permanent options like IUL and whole life can cover the lifelong portion. Let’s talk through what fits your budget.</p>
+        <a class="btn btn-green" href="#consult" style="width:100%">Get a Personalized Review</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RETIREMENT -->
+  <section class="section" id="retirement" style="padding-top:0">
+    <div class="grid2">
+      <div class="photo"><img src="assets/retirement.jpg" alt="Confident retired couple enjoying life at home" /></div>
+      <div>
+        <div class="eyebrow" style="color:var(--gold)">Retirement Planning &amp; Annuities</div>
+        <h2>Retirement income you don’t have to guess at.</h2>
+        <p style="color:var(--muted)">Annuities are insurance products designed to help turn savings into income — in some cases, income guaranteed for life. They’re not right for everyone, and the details matter: payout options, fees, surrender periods, and how an annuity fits with Social Security and other savings.</p>
+        <ul class="checklist">
+          <li><strong>Fixed annuities</strong> — predictable, guaranteed rate for a set period</li>
+          <li><strong>Fixed indexed annuities</strong> — growth potential linked to an index, with principal protection from market downturns (per contract terms)</li>
+          <li><strong>Income planning</strong> — mapping Social Security, savings, and annuities into one monthly picture</li>
+        </ul>
+        <a class="btn btn-green" href="#consult">Plan My Retirement Income</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" style="padding-top:0">
+    <div class="section-head"><h2>How working with us feels</h2></div>
+    <div class="steps" style="margin-top:20px">
+      <div class="step"><b>01</b><h3>Discover</h3><p class="small" style="font-size:.95rem;color:var(--muted)">A free consultation — by phone or in person — about your goals, family, and timeline. We listen first.</p></div>
+      <div class="step"><b>02</b><h3>Learn</h3><p class="small" style="font-size:.95rem;color:var(--muted)">We explain your options in plain language — homes, policies, or retirement products — with real numbers.</p></div>
+      <div class="step"><b>03</b><h3>Decide</h3><p class="small" style="font-size:.95rem;color:var(--muted)">You choose the path that fits your budget and values. No pressure, no rush, no confusion.</p></div>
+      <div class="step"><b>04</b><h3>Build</h3><p class="small" style="font-size:.95rem;color:var(--muted)">We stay in your corner — closing day, policy delivery, annual reviews, and the next move when life changes.</p></div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section class="cta-band"><div class="section" style="padding-block:44px">
+    <h2 style="font-size:2rem">Proudly serving Atlanta &amp; surrounding areas</h2>
+    <p style="color:var(--muted);max-width:820px">Atlanta • Buckhead • Midtown • Decatur • Sandy Springs • Marietta • Smyrna • Vinings • East Atlanta • College Park • Stone Mountain • Lithonia • Tucker • Norcross • Duluth • Johns Creek • Alpharetta • Kennesaw • Douglasville • Riverdale • Jonesboro • Stockbridge • McDonough • Conyers &amp; more across metro Atlanta.</p>
+    <p class="small">Not sure if we cover your neighborhood? Call <a href="tel:+16784587469" style="font-weight:800">678-458-7469</a> — if we can’t help, we’ll point you to someone who can.</p>
+  </div></section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="section-head"><h2>Questions families ask us</h2></div>
+    <div style="margin-top:20px">
+      <details><summary>Do I need life insurance if I already have it through work?</summary><p style="color:var(--muted)">Work coverage is a great start, but it’s usually 1–2× your salary, it may not be enough to cover a mortgage and years of income, and it typically doesn’t follow you if you change jobs. A personal policy you own stays with you. We can review what you have — free — and tell you honestly if it’s enough.</p></details>
+      <details><summary>What’s the difference between an IUL and a 401(k) or IRA?</summary><p style="color:var(--muted)">They do different jobs. A 401(k)/IRA is a retirement savings/investment account. An IUL is a life insurance policy first — it provides a death benefit — with cash value that can grow based on an index and may be accessed tax-advantaged under current rules. Many families use both. We’ll explain how they can work together, including the costs and limits of each.</p></details>
+      <details><summary>I’m a first-time buyer. Where do I actually start?</summary><p style="color:var(--muted)">Start with a conversation, not a listing app. We’ll look at your budget comfort, credit picture, down-payment options (including assistance programs you may qualify for), and timeline — then connect the home search to a plan you can afford long-term.</p></details>
+      <details><summary>Are annuities safe? Can I lose money?</summary><p style="color:var(--muted)">Fixed and fixed indexed annuities are insurance contracts — guarantees are backed by the issuing insurance company and spelled out in the contract. They typically protect principal from market downturns but have surrender periods and caps/fees that affect growth. That’s exactly why we review the full contract details with you before any decision.</p></details>
+      <details><summary>How much does a consultation cost?</summary><p style="color:var(--muted)">Your first consultation is free. We’ll learn your goals, answer questions, and outline next steps. If we move forward together, we’ll be transparent about how we’re compensated for real estate or insurance services before you commit to anything.</p></details>
+      <details><summary>Do you only work in Atlanta?</summary><p style="color:var(--muted)">Our home base is Atlanta and surrounding areas across metro Atlanta. Reach out if you’re nearby or relocating here — we’re happy to talk through your situation.</p></details>
+    </div>
+  </section>
+
+  <!-- CONSULT -->
+  <section class="section" id="consult" style="padding-top:0">
+    <div class="grid2" style="align-items:start">
+      <div>
+        <div class="eyebrow" style="color:var(--gold)">Free Consultation</div>
+        <h2>Let’s talk about your next move.</h2>
+        <p style="color:var(--muted)">Fill this out and tap “Send” — it opens an email to us with your details ready to go. Prefer to talk now? Call or email directly.</p>
+        <p style="font-size:1.15rem"><strong>Phone:</strong> <a href="tel:+16784587469" style="font-weight:800;color:var(--green)">678-458-7469</a><br><strong>Email:</strong> <a href="mailto:Carrnlinerealty@gmail.com" style="font-weight:800;color:var(--green)">Carrnlinerealty@gmail.com</a><br><strong>Area:</strong> Atlanta &amp; surrounding areas</p>
+        <div class="card" style="margin-top:18px"><h3 style="margin-top:0">What happens next?</h3><p>We reply within one business day to schedule your free consultation — a relaxed conversation about your goals, with a clear next step whether you work with us or not.</p></div>
+      </div>
+      <form class="consult" id="consultForm">
+        <label for="fName">Your name</label><input id="fName" required placeholder="Full name" autocomplete="name">
+        <label for="fPhone">Phone</label><input id="fPhone" type="tel" placeholder="(678) 555-0123" autocomplete="tel">
+        <label for="fInterest">I’m interested in…</label>
+        <select id="fInterest"><option>Buying a home</option><option>Selling a home</option><option>Life insurance — IUL</option><option>Life insurance — Term</option><option>Life insurance — Whole Life</option><option>Not sure — help me compare</option><option>Retirement planning</option><option>Annuities</option><option>Financial literacy / wealth building</option></select>
+        <label for="fMsg">Anything we should know?</label><textarea id="fMsg" rows="4" placeholder="Your timeline, neighborhood, coverage you have now, questions…"></textarea>
+        <button class="btn btn-gold" type="submit" style="width:100%">Send My Request →</button>
+        <p class="small" style="text-align:center;margin-top:10px">Opens your email app addressed to Carrnlinerealty@gmail.com. No spam, ever.</p>
+        <p id="formNote" class="small" style="display:none;text-align:center;font-weight:700;color:var(--green)"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="inner">
+    <div><div class="brand" style="margin-bottom:12px"><span class="mark">CR</span><span><b style="color:#fff">Carrnline</b><span>Realty &amp; Wealth Group</span></span></div><p>Real estate, financial literacy, wealth building, life insurance brokerage, retirement planning &amp; annuities — for families across Atlanta and surrounding areas.</p></div>
+    <div><h3 style="color:#fff;font-size:1.1rem">Explore</h3><p><a href="#real-estate">Real Estate</a><br><a href="#insurance">Life Insurance</a><br><a href="#retirement">Retirement &amp; Annuities</a><br><a href="#calculator">Coverage Estimator</a><br><a href="#consult">Book a Consultation</a></p></div>
+    <div><h3 style="color:#fff;font-size:1.1rem">Contact</h3><p><a href="tel:+16784587469">678-458-7469</a><br><a href="mailto:Carrnlinerealty@gmail.com">Carrnlinerealty@gmail.com</a><br>Atlanta, GA &amp; surrounding areas</p></div>
+  </div>
+  <p class="disclaimer">© 2026 Carrnline Realty &amp; Wealth Group. Educational information only — this site does not provide tax, legal, or investment advice. Life insurance and annuity products are issued by insurance companies; guarantees are subject to the claims-paying ability of the issuer and to policy/contract terms, including charges, caps, and surrender periods. Indexed Universal Life cash-value growth is not guaranteed and is not a direct investment in any index. Consult a qualified tax or legal professional for advice specific to your situation.</p>
+</footer>
+
+<div class="sticky-call"><a href="tel:+16784587469" style="background:var(--green);color:#fff">📞 Call Now</a><a href="#consult" style="background:var(--gold);color:#111">Free Consultation</a></div>
+
+<script>
+(function(){
+  var btn=document.getElementById('menuBtn'), links=document.getElementById('navLinks');
+  btn.addEventListener('click',function(){var open=links.classList.toggle('open');btn.setAttribute('aria-expanded',open);});
+  links.addEventListener('click',function(e){if(e.target.tagName==='A')links.classList.remove('open');});
+
+  function money(n){return '$'+Math.round(n).toLocaleString('en-US');}
+  function calc(){
+    var inc=+document.getElementById('income').value||0;
+    var yrs=+document.getElementById('years').value||0;
+    var debt=+document.getElementById('debt').value||0;
+    var fut=+document.getElementById('future').value||0;
+    var ex=+document.getElementById('existing').value||0;
+    var need=Math.max(0, inc*yrs + debt + fut - ex);
+    document.getElementById('calcResult').textContent=money(need);
+    document.getElementById('calcBreakdown').textContent='Income replacement '+money(inc*yrs)+' + debts '+money(debt)+' + goals '+money(fut)+' − existing '+money(ex)+'.';
+  }
+  document.getElementById('calcBtn').addEventListener('click',calc);
+  ['income','years','debt','future','existing'].forEach(function(id){document.getElementById(id).addEventListener('input',calc);});
+  calc();
+
+  document.getElementById('consultForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=document.getElementById('fName').value.trim();
+    var phone=document.getElementById('fPhone').value.trim();
+    var interest=document.getElementById('fInterest').value;
+    var msg=document.getElementById('fMsg').value.trim();
+    var subject=encodeURIComponent('Free Consultation Request — '+interest+' — '+name);
+    var body=encodeURIComponent('Name: '+name+'\nPhone: '+phone+'\nInterested in: '+interest+'\n\nNotes:\n'+msg+'\n\n— Sent from the Carrnline Realty & Wealth Group website');
+    window.location.href='mailto:Carrnlinerealty@gmail.com?subject='+subject+'&body='+body;
+    var note=document.getElementById('formNote');
+    note.style.display='block';
+    note.textContent='Opening your email app now — just hit send there and we’ll take it from there. Prefer to talk? Call 678-458-7469.';
+  });
+})();
+</script>
+</body>
+</html>
