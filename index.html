@@ -98,6 +98,9 @@ footer a{color:#fff;font-weight:700}
 .disclaimer{font-size:.82rem;color:#8a968e;max-width:1180px;margin:28px auto 0;border-top:1px solid #22332b;padding-top:18px}
 .sticky-call{position:fixed;left:14px;right:14px;bottom:14px;z-index:60;display:none;gap:10px}
 .sticky-call a{flex:1;text-align:center;padding:1rem;border-radius:999px;font-weight:800;box-shadow:var(--shadow)}
+.brokerbar{background:var(--gold2);color:#231a05;font-size:.92rem;border-bottom:1px solid var(--gold)}
+.brokerbar-inner{max-width:1180px;margin:0 auto;padding:.55rem 20px;text-align:center}
+.brokerbar a{font-weight:800;text-decoration:underline}
 @media(max-width:920px){
   .links{display:none;position:absolute;top:100%;left:16px;right:16px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;flex-direction:column}
   .links.open{display:flex}
@@ -132,6 +135,8 @@ footer a{color:#fff;font-weight:700}
     <a class="btn btn-green" href="#consult" style="white-space:nowrap">Book Free Consultation</a>
   </nav>
 </header>
+
+<div class="brokerbar"><div class="brokerbar-inner">Licensed Georgia Real Estate Salesperson: <strong>Carrnline Orepha — GA License #455149</strong> &nbsp;·&nbsp; Brokerage: <strong>Metro Brokers Inc</strong> &nbsp;·&nbsp; Broker phone: <a href="tel:+14048432500">404-843-2500</a></div></div>
 
 <main id="top">
   <!-- HERO -->
@@ -191,7 +196,7 @@ footer a{color:#fff;font-weight:700}
   <section class="section" id="services" style="padding-top:10px">
     <div class="section-head"><div class="eyebrow" style="color:var(--gold)">Our Services</div><h2>Everything your family needs to build — in one place</h2><p>Choose the path you need today. We’ll show you how it connects to the bigger picture.</p></div>
     <div class="grid3" style="margin-top:28px">
-      <article class="card" id="real-estate"><div class="icon">🏠</div><h3>Real Estate</h3><p><strong>Buyers:</strong> Pre-approval readiness, tours, sharp negotiation, and clear guidance from first showing to closing day — especially for first-time buyers.</p><p><strong>Sellers:</strong> Pricing strategy, prep guidance, and marketing that positions your home to stand out.</p><p><strong>Investors:</strong> Talk through numbers, neighborhoods, and long-term hold vs. sell decisions.</p><a href="#consult" style="font-weight:800;color:var(--green)">Start a real estate conversation →</a></article>
+      <article class="card" id="real-estate"><div class="icon">🏠</div><h3>Real Estate</h3><p><strong>Buyers:</strong> Pre-approval readiness, tours, sharp negotiation, and clear guidance from first showing to closing day — especially for first-time buyers.</p><p><strong>Sellers:</strong> Pricing strategy, prep guidance, and marketing that positions your home to stand out.</p><p><strong>Investors:</strong> Talk through numbers, neighborhoods, and long-term hold vs. sell decisions.</p><p class="small">Real estate services are provided by Carrnline Orepha, a licensed Georgia real estate salesperson (GA License #455149) affiliated with <strong>Metro Brokers Inc</strong>. All real estate brokerage services are offered through Metro Brokers Inc.</p><a href="#consult" style="font-weight:800;color:var(--green)">Start a real estate conversation →</a></article>
       <article class="card"><div class="icon">📚</div><h3>Financial Literacy &amp; Wealth Building</h3><p>Money confidence isn’t about having a finance degree — it’s about having a system. We cover budgeting that actually works, understanding credit, emergency funds, debt payoff order, and how homeownership fits into wealth building.</p><p>Ideal for families who earn well but want their money to work harder and last longer.</p><a href="#consult" style="font-weight:800;color:var(--green)">Build your money system →</a></article>
       <article class="card"><div class="icon">🌅</div><h3>Retirement Planning &amp; Annuities</h3><p>Retirement isn’t an age — it’s an income plan. We help you think through when you want to retire, what income you’ll need, and how annuities can fit alongside other savings to help create predictable income and reduce worry about outliving your money.</p><a href="#retirement" style="font-weight:800;color:var(--green)">Explore retirement options →</a></article>
     </div>
@@ -325,7 +330,7 @@ footer a{color:#fff;font-weight:700}
         <div class="eyebrow" style="color:var(--gold)">Free Consultation</div>
         <h2>Let’s talk about your next move.</h2>
         <p style="color:var(--muted)">Fill this out and tap “Send” — it opens an email to us with your details ready to go. Prefer to talk now? Call or email directly.</p>
-        <p style="font-size:1.15rem"><strong>Phone:</strong> <a href="tel:+16784587469" style="font-weight:800;color:var(--green)">678-458-7469</a><br><strong>Email:</strong> <a href="mailto:Carrnlinerealty@gmail.com" style="font-weight:800;color:var(--green)">Carrnlinerealty@gmail.com</a><br><strong>Area:</strong> Atlanta &amp; surrounding areas</p>
+        <p style="font-size:1.15rem"><strong>Phone:</strong> <a href="tel:+16784587469" style="font-weight:800;color:var(--green)">678-458-7469</a><br><strong>Email:</strong> <a href="mailto:Carrnlinerealty@gmail.com" style="font-weight:800;color:var(--green)">Carrnlinerealty@gmail.com</a><br><strong>Area:</strong> Atlanta &amp; surrounding areas<br><strong>Broker:</strong> Metro Brokers Inc · <a href="tel:+14048432500" style="font-weight:800;color:var(--green)">404-843-2500</a></p>
         <div class="card" style="margin-top:18px"><h3 style="margin-top:0">What happens next?</h3><p>We reply within one business day to schedule your free consultation — a relaxed conversation about your goals, with a clear next step whether you work with us or not.</p></div>
       </div>
       <form class="consult" id="consultForm">
@@ -346,8 +351,9 @@ footer a{color:#fff;font-weight:700}
   <div class="inner">
     <div><div class="brand" style="margin-bottom:12px"><span class="mark">CR</span><span><b style="color:#fff">Carrnline</b><span>Realty &amp; Wealth Group</span></span></div><p>Real estate, financial literacy, wealth building, life insurance brokerage, retirement planning &amp; annuities — for families across Atlanta and surrounding areas.</p></div>
     <div><h3 style="color:#fff;font-size:1.1rem">Explore</h3><p><a href="#real-estate">Real Estate</a><br><a href="#insurance">Life Insurance</a><br><a href="#retirement">Retirement &amp; Annuities</a><br><a href="#calculator">Coverage Estimator</a><br><a href="#consult">Book a Consultation</a></p></div>
-    <div><h3 style="color:#fff;font-size:1.1rem">Contact</h3><p><a href="tel:+16784587469">678-458-7469</a><br><a href="mailto:Carrnlinerealty@gmail.com">Carrnlinerealty@gmail.com</a><br>Atlanta, GA &amp; surrounding areas</p></div>
+    <div><h3 style="color:#fff;font-size:1.1rem">Contact</h3><p><a href="tel:+16784587469">678-458-7469</a><br><a href="mailto:Carrnlinerealty@gmail.com">Carrnlinerealty@gmail.com</a><br>Atlanta, GA &amp; surrounding areas<br><br>Broker: Metro Brokers Inc<br><a href="tel:+14048432500">404-843-2500</a></p></div>
   </div>
+  <p class="disclaimer"><strong>Brokerage disclosure:</strong> Carrnline Orepha is a licensed Georgia real estate salesperson (GA License #455149) affiliated with Metro Brokers Inc, 5775 Glenridge Drive, Suite D200, Atlanta, GA 30328; broker phone 404-843-2500. Real estate services described on this website are offered in the name of, and under the supervision of, Metro Brokers Inc. Carrnline Realty &amp; Wealth Group is not a licensed real estate brokerage. Life insurance, retirement planning, and annuity services are separate from real estate brokerage services and are not provided by Metro Brokers Inc. Equal Housing Opportunity.</p>
   <p class="disclaimer">© 2026 Carrnline Realty &amp; Wealth Group. Educational information only — this site does not provide tax, legal, or investment advice. Life insurance and annuity products are issued by insurance companies; guarantees are subject to the claims-paying ability of the issuer and to policy/contract terms, including charges, caps, and surrender periods. Indexed Universal Life cash-value growth is not guaranteed and is not a direct investment in any index. Consult a qualified tax or legal professional for advice specific to your situation.</p>
 </footer>
 
